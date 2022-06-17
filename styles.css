@@ -1,0 +1,54 @@
+* {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#intro {
+    background-color: #DCDCDC;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#aus,
+#nz,
+#ukr {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#intro img {
+    width: 400px;
+    height: auto;
+}
+
+#intro .text.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+#aus .text {
+    color: orange;
+}
+
+#nz .text {
+    color: green;
+}
+
+#ukr .text {
+    color: darkblue;
+}
+
